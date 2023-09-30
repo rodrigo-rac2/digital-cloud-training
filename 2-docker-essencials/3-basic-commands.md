@@ -1,4 +1,4 @@
-Basic docker commands
+## Basic docker commands
 ```
 docker run/docker stop
 docker pull # doesn't start a container with the image
