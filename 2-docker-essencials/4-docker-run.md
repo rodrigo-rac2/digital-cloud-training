@@ -1,9 +1,9 @@
-### TAGS:
+## TAGS:
 docker run redis # pulls the latest
 docker run redis:4.0 # :tag
 
 
-### INPUT/TERMINAL:
+## INPUT/TERMINAL:
 ```
 > ./app.sh
 Hello, enter your name: Rodrigo
