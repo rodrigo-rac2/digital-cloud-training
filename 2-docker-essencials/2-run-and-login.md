@@ -1,3 +1,7 @@
-docker run -it centos bash
+## Access input and terminal from docker run
 
-cat /etc/*release*
+```
+> docker run -it centos bash
+
+$ cat /etc/*release*
+```
