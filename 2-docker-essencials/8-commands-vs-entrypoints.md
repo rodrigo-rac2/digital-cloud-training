@@ -55,3 +55,8 @@ CMD ["10"]
 ```
 
 This way, `docker run ubuntu-sleeper` will sleep for 10 seconds by default, but any number passed to the CLI will replace the CMD instruction, like `docker run ubuntu-sleeper 100` - that would sleep for 100 seconds.
+
+
+## Is it possible to replace the entrypoint, though?
+
+> docker run --entrypoint sleep2.0 ubuntu-sleeper 10
